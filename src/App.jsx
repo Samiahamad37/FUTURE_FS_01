@@ -85,8 +85,14 @@ export default function App() {
     <>
       <header className="site-header">
         <div className="container nav-wrap">
-          <a className="logo" href="#home">
-            Samya.dev
+          <a className="logo" href="my prof.jpg">
+            <img
+              className="profile-photo"
+              src="/my prof.jpg"
+              alt="Samya profile"
+              loading="lazy"
+            />
+            <span>Samya.dev</span>
           </a>
           <nav>
             <button
