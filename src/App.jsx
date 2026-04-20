@@ -31,24 +31,35 @@ const skills = [
 
 const projects = [
   {
-    title: "Blog Platform",
-    description: "Full stack blog app with auth, posting, and comments.",
-    stack: "React, Node.js, Express, MongoDB",
-    link: "https://github.com/your-username/blog-platform"
+    title: "Air Quality Monitoring (Contribution)",
+    description:
+      "Contributed to an air quality monitoring setup by supporting configuration and integration work for metrics collection.",
+    stack: "Monitoring, Telegraf, InfluxDB",
+    link: "https://github.com/Samiahamad37/TELEGRAF-CONFIG"
+  },
+  {
+    title: "Department Website Project",
+    description:
+      "Department website project from my repository, focused on structure, navigation, and content presentation.",
+    stack: "JavaScript, React, CSS, Python, Django REST Framework",
+    link: "https://github.com/Samiahamad37/DAPARTMENT-WEB"
   },
   {
     title: "Task Manager",
-    description: "Task tracker with filters, status tags, and reminders.",
-    stack: "React, JavaScript, Local Storage",
-    link: "https://github.com/your-username/task-manager"
+    description:
+      "Productivity tool for creating, organizing, and tracking tasks to improve time management.",
+    stack: "HTML, CSS, JavaScript",
+    link: "https://github.com/Samiahamad37/task-manager"
   },
   {
-    title: "E-Commerce Starter",
-    description: "Storefront prototype with cart flow and API-backed catalog.",
-    stack: "React, Node.js, MySQL",
-    link: "https://github.com/your-username/ecommerce-starter"
+    title: "Hostel Management System",
+    description:
+      "Web-based hostel management workflow covering student accommodation records and admin operations.",
+    stack: "PHP, HTML, CSS, MySQL",
+    link: "https://github.com/Samiahamad37/Hostel-management-system"
   }
-];
+]
+ 
 
 export default function App() {
   const [menuOpen, setMenuOpen] = useState(false);
